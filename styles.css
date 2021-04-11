@@ -1,0 +1,66 @@
+body {
+  background-color: black;
+  overflow: hidden;
+  margin: 0;
+}
+
+h1 {
+  color: #ff8882;
+  margin-top: 0;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+input::before {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  bottom: 14px;
+  content: "Select Image";
+  display: inline-block;
+  color: #ff8882;
+  border: 4px solid #ff8882;
+  border-radius: 40px;
+  padding: 10px 26px;
+  outline: none;
+  white-space: nowrap;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 4px;
+}
+
+input:hover::before {
+  border-color: #e11d74;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  line-height: 14px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /* text-fill-color: rgba(255, 255, 255, 0); */
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  background-size: 60vh;
+  background-position: center;
+}
+
+button {
+  position: absolute;
+  bottom: 10px;
+  border: 2px solid #e11d74;
+}
