@@ -55,7 +55,7 @@ p {
   background-repeat: no-repeat;
   /* text-fill-color: rgba(255, 255, 255, 0); */
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
-  background-size: 60vh;
+  background-size: 300px;
   background-position: center;
 }
 
