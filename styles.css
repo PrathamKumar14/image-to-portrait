@@ -9,7 +9,8 @@ h1 {
   color: #ff8882;
   margin-top: 0;
   font-family: "Poppins", sans-serif;
-  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 input::-webkit-file-upload-button {
